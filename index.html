@@ -1,0 +1,85 @@
+<html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/> 
+
+    <link rel="stylesheet" href="css/all.min.css" /> 
+
+    <link rel="stylesheet" href="css/style.css" /> 
+
+
+</head>
+
+
+
+<body>
+<div class="d-flex justify-content-between">
+    <h1 class="text-white m-2">score:<span id="score-show">0</span></h1>
+    <h1 class="text-white m-2">life <span id="life">10</span></h1>
+</div>
+<div id="start-game" class="play-mine">
+    <h1 class="happy">HAPPY EGG</h1>
+    <button id="play" class="btn btn-mine">PLAY</button>
+</div>
+<div id="again" class="play-mine">
+    <h1 class="happy">HAPPY EGG</h1>
+    <h2 id="final-score"></h2>
+    <button id="play-again"class="btn btn-mine" >PLAY AGAIN</button>
+</div>
+
+    
+
+    <div id="basket">
+       <span id="score"></span> 
+    <img class="w-100"src="imgs/Basket.svg" alt="">
+</div>
+<div class="container">
+    <div class="row justify-content-between">
+        
+        <div class="chicken">
+            <img class="hen-img" src="imgs/Happy_hen.svg" alt="hen">
+            <img id="egg1-img" src="imgs/Happy_Egg.svg" alt="egg">
+          
+        </div>
+        <div class="chicken">
+            <img class="hen-img" src="imgs/Happy_hen.svg" alt="hen">
+            <img id="egg2-img" src="imgs/Happy_Egg.svg" alt="egg">
+          
+        </div>
+        <div class="chicken">
+            <img class="hen-img" src="imgs/Happy_hen.svg" alt="hen">
+            <img id="egg3-img" src="imgs/Happy_Egg.svg" alt="egg">
+           
+        </div>
+       
+    </div>
+    <img src="imgs/Broken_Egg.svg" alt="broken egg" id="broken">
+    <img src="imgs/Broken_Egg.svg" alt="broken egg" id="broken2">
+    <img src="imgs/Broken_Egg.svg" alt="broken egg" id="broken3">
+</div>
+
+
+<audio loop  src="audio/happy chicken.mp3" id="happy-chicken" preload="auto"  >
+    <audio  src="audio/game over.mp3" id="game-over" preload="auto"  >
+        <audio  src="audio/score.mp3" id="score-sound" preload="auto"  ></audio>
+</audio>
+
+
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mine.js"></script>
+
+</body>
+
+
+
+
+</html>
